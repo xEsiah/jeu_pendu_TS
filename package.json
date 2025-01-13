@@ -8,5 +8,8 @@
   "devDependencies": {
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@types/node": "^22.10.5"
   }
 }
