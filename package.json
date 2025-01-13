@@ -1,0 +1,12 @@
+{
+  "name": "jeu_pendu",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}
