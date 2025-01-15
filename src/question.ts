@@ -5,7 +5,7 @@ export async function askLetter() {
     input: process.stdin,
     output: process.stdout,
   });
-  return new Promise((resolve) => {
+  return new Promise<string>((resolve) => {
     rl.question(`Deviner une lettre du mot : `, (input) => {
       resolve(input);
       rl.close();
